@@ -1,9 +1,7 @@
 name: Bonk PR Review
 
 on:
-  pull_request:
-    types: [opened, synchronize]
-
+  workflow_dispatch:
 jobs:
   bonk:
     if: >-
